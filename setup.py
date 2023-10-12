@@ -9,7 +9,7 @@ def read(filename):
 
 setup(
     name="alvar",
-    version="0.1",
+    version="0.1.1",
     description="Allan variance calculation",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
