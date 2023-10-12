@@ -1,1 +1,1 @@
-from alvar.main import allan_variance
+from alvar.main import *

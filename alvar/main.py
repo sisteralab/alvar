@@ -1,4 +1,4 @@
-from typing import Tuple
+from typing import Tuple, List
 
 import numpy as np
 
@@ -35,3 +35,11 @@ def allan_variance(
         )
     allan_var /= (2 * tau ** 2) * (n - 2 * m)
     return tau, allan_var
+
+
+def db_to_absolute(data: List) -> np.ndarray:
+    """
+    :param data: Data in dBm
+    :return: converted dBm to absolute dimension
+    """
+    return 0.001 * 10 ** (np.array(data)/10)
