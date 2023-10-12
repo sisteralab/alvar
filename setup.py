@@ -9,7 +9,7 @@ def read(filename):
 
 setup(
     name="alvar",
-    version="0.1.1",
+    version="0.1.2",
     description="Allan variance calculation",
     long_description=read("README.md"),
     long_description_content_type="text/markdown",
@@ -18,5 +18,5 @@ setup(
     url="https://github.com/sisteralab/alvar",
     keywords="allan variance",
     packages=find_packages(),
-    requires=["numpy"]
+    install_requires=["numpy"],
 )
