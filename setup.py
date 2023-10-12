@@ -18,5 +18,5 @@ setup(
     url="https://github.com/sisteralab/alvar",
     keywords="allan variance",
     packages=find_packages(),
-    requires=["numpy==1.26.0"]
+    requires=["numpy"]
 )
